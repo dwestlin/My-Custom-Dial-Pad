@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Dial Pad</string>
+    <string name="enter_number">Enter number</string>
+    <string name="sound_unavailable">Sound is unavailable.</string>
+    <string name="call_list">Call list</string>
+    <string name="store_number">Store number</string>
+    <string name="settings">Settings</string>
+    <string name="allow_numbers_to_be_stored">Allow numbers to be stored</string>
+    <string name="external_fail">External failed</string>
+    <string name="sound_loaded">Sound Loaded</string>
+
+    <string name="value_100">100</string>
+
+
+    <string name="store_called_numbers_settings">Store called numbers</string>
+    <string name="sound_type">Sound type</string>
+    <string name="storageLocation">Storage location</string>
+
+    <string name="select_voice_settings">Select voice</string>
+    <string name="select_voice_settings_sum">Select voice file</string>
+    <string name="delete_voice_settings">Delete voice</string>
+    <string name="delete_voice_settings_sum">Delete voice file</string>
+
+    <string name="download_sounds">Download Sounds</string>
+    <string name="download_progress">Downloading</string>
+    <string name="download_success">Download Successful</string>
+    <string name="download_failed">Download Failed</string>
+    <string name="download_not_allowed">Download not allowed</string>
+
+    <string name="storage_granted">Storage permission granted</string>
+    <string name="storage_external_unavailable">External SD-card not available.</string>
+    <string name="storage_denied">Storage permission denied</string>
+
+    <string name="call_not_granted">Permission to make calls was not granted!</string>
+    <string name="call_granted">Permission to call granted</string>
+
+    <string name="settings_click">Click</string>
+    <string name="settings_voice">Voice</string>
+
+
+    <string name="voice_url">http://dt031g.programvaruteknik.nu/dialpad/sounds/</string>
+    <string name="storage_location">com.example.dwest</string>
+    <string name="storage_source">Source for new voices</string>
+    <string name="no_calls_are_stored">No calls are stored</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="googleMap">Map</string>
+</resources>

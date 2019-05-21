@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="@string/store_called_numbers_settings"
+        android:key="save_numbers"
+        android:defaultValue="true"/>
+
+    <EditTextPreference
+        android:key="soundType"
+        android:title="@string/sound_type"
+        android:editable="false"
+        android:clickable="false"/>
+
+    <ListPreference
+        android:key="voiceFile"
+        android:title="@string/select_voice_settings"
+        android:summary="@string/select_voice_settings_sum"
+        android:dialogTitle="@string/select_voice_settings"/>
+
+    <EditTextPreference
+        android:key="storageSource"
+        android:title="@string/storage_source"
+        android:editable="false"
+        android:clickable="false"/>
+
+
+    <EditTextPreference
+        android:key="storageLocation"
+        android:title="@string/storageLocation"
+        android:editable="false"
+        android:clickable="false"/>
+
+    <MultiSelectListPreference
+        android:key="deleteFile"
+        android:title="@string/delete_voice_settings"
+        android:summary="@string/delete_voice_settings_sum"
+        android:dialogTitle="@string/delete_voice_settings"/>
+
+</PreferenceScreen>

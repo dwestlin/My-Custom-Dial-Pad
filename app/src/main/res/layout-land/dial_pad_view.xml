@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dip"
+    android:layout_margin="0dip">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="0dip">
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:layout_weight="4"
+            android:clickable="false"
+            android:focusable="false"
+            android:hint="@string/enter_number"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/eraseBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_delete_custom"
+            android:longClickable="true" />
+
+        <ImageButton
+            android:id="@+id/callBtn"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_call_custom" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:layout_margin="0dip">
+
+        <ImageButton
+            android:id="@+id/dialOneBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_one_custom"
+            android:layout_marginBottom="-8dp"/>
+
+        <ImageButton
+            android:id="@+id/dialTwoBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_two_custom"
+            android:layout_marginBottom="-8dp"/>
+
+        <ImageButton
+            android:id="@+id/dialThreeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_three_custom"
+            android:layout_marginBottom="-8dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:layout_margin="0dip">
+
+        <ImageButton
+            android:id="@+id/dialFourBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_four_custom"
+            android:layout_marginBottom="-8dp"/>
+
+        <ImageButton
+            android:id="@+id/dialFiveBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_five_custom"
+            android:layout_marginBottom="-8dp"/>
+
+        <ImageButton
+            android:id="@+id/dialSixBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_six_custom"
+            android:layout_marginBottom="-8dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:layout_margin="0dip">
+
+        <ImageButton
+            android:id="@+id/dialSevenBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_seven_custom"
+            android:layout_marginBottom="-8dp"
+            />
+
+        <ImageButton
+            android:id="@+id/dialEightBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_eight_custom"
+            android:layout_marginBottom="-8dp"
+            />
+
+        <ImageButton
+            android:id="@+id/dialNineBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_nine_custom"
+            android:layout_marginBottom="-8dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:layout_margin="0dip">
+
+        <ImageButton
+            android:id="@+id/dialStarBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_star_custom"
+            android:layout_marginBottom="-8dp"/>
+
+        <ImageButton
+            android:id="@+id/dialZeroBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_zero_custom"
+            android:layout_marginBottom="-8dp"/>
+
+        <ImageButton
+            android:id="@+id/dialPoundBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_pound_custom"
+            android:layout_marginBottom="-8dp"/>
+    </TableRow>
+
+</TableLayout>
